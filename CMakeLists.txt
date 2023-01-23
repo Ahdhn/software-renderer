@@ -79,7 +79,7 @@ include(tbb)
 target_link_libraries(software_renderer PUBLIC TBB::tbb)
 
 include(json)
-target_link_libraries(software_renderer PUBLIC nlohmann::json)
+target_link_libraries(software_renderer PUBLIC nlohmann_json::nlohmann_json)
 
 ################################################################################
 # Compiler options
